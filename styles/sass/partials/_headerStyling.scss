@@ -84,6 +84,26 @@ header {
     padding: 20px;
   }
 
+  //   display images for the cart
+
+  // addinc class for the ul
+
+  .ul-cart-images {
+    width: 100%;
+  }
+
+  .li-cart-image {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .ul-cart-images .li-cart-image img {
+    height: 200px;
+  }
+
+  // end with cart images styles
+
   .headerContainer {
     height: 100vh;
 

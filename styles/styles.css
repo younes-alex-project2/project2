@@ -405,6 +405,17 @@ header .purchase-btn {
   margin: 20px;
   padding: 20px;
 }
+header .ul-cart-images {
+  width: 100%;
+}
+header .li-cart-image {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+header .ul-cart-images .li-cart-image img {
+  height: 200px;
+}
 header .headerContainer {
   height: 100vh;
 }
